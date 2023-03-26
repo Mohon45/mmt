@@ -6,6 +6,7 @@ import Navbar from "./shared/Navbar";
 
 const Dashboard = React.lazy(() => import("./pages/Home"));
 const Contact = React.lazy(() => import("./pages/Contact"));
+const About = React.lazy(() => import("./pages/About"));
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </div>
