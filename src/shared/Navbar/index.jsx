@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import logo from "../../assets/img/MMT_Master_Logo-Primary.png";
 
 const Navbar = () => {
   return (
-    <div className="navbar text-white py-8">
+    <div className="navbar z-10 fixed top-0 bg-[#FFFFFF] py-8">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className=" lg:hidden mr-4">
@@ -47,7 +46,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a href="#" className="ml-12">
+        <a href="/" className="ml-12">
           <img src={logo} className="w-[80%]" alt="" />
         </a>
       </div>
@@ -131,12 +130,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link
-          to="/"
+        <a
+          href="/contact"
           className="btn bg-[#FF0044] hover:bg-red-400 border-none text-lg px-10 mr-20"
         >
           CONTACT
-        </Link>
+        </a>
       </div>
     </div>
   );

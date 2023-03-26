@@ -8,7 +8,14 @@ import icon3 from "../../../assets/img/icon-3_1.png";
 import icon4 from "../../../assets/img/icon-4_1.png";
 import icon5 from "../../../assets/img/icon-5.png";
 import icon6 from "../../../assets/img/icon-6.png";
-import client1 from "../../../assets/img/clients1.png";
+import client1 from "../../../assets/img/Logos__Plum_-23.png";
+import client2 from "../../../assets/img/Logos__Plum_-24.png";
+import client3 from "../../../assets/img/clients1.png";
+import client4 from "../../../assets/img/Logos__Plum_-27.png";
+import client5 from "../../../assets/img/Logos__Plum_-26.png";
+import client6 from "../../../assets/img/Logos__Plum_-25.png";
+import client7 from "../../../assets/img/Logos__Plum_-19.png";
+import client8 from "../../../assets/img/Logos__Plum_-20.png";
 
 const WhyMmt = () => {
   return (
@@ -81,20 +88,21 @@ const WhyMmt = () => {
         <h1 className="text-center text-4xl font-bold my-20">OUR CLIENTS</h1>
         <div className="my-10">
           <Slider
-            slidesToShow={4}
+            slidesToShow={5}
             slidesToScroll={1}
             autoplay={true}
             autoplaySpeed={1000}
             pauseOnFocus={false}
             pauseOnHover={false}
           >
-            <img src={client1} className="w-[200px]" alt="" />
-            <img src={client1} className="w-[200px]" alt="" />
-            <img src={client1} className="w-[200px]" alt="" />
-            <img src={client1} className="w-[200px]" alt="" />
-            <img src={client1} className="w-[200px]" alt="" />
-            <img src={client1} className="w-[200px]" alt="" />
-            <img src={client1} className="w-[200px]" alt="" />
+            <img src={client1} className="w-[100px]" alt="" />
+            <img src={client2} className="w-[100px]" alt="" />
+            <img src={client3} className="w-[100px]" alt="" />
+            <img src={client4} className="w-[100px]" alt="" />
+            <img src={client5} className="w-[100px]" alt="" />
+            <img src={client6} className="w-[100px]" alt="" />
+            <img src={client7} className="w-[100px]" alt="" />
+            <img src={client8} className="w-[100px]" alt="" />
           </Slider>
         </div>
       </div>

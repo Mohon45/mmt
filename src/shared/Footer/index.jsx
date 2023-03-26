@@ -16,8 +16,10 @@ const Footer = () => {
           <p className="text-2xl font-medium mt-8">Stay up-to-date with the</p>
           <p className="text-2xl font-medium">latest news and insights.</p>
 
-          <div className="bg-[#00FFFF] text-xl w-[150px] text-center cursor-pointer rounded-md py-2 footer-corner-style mt-8 mb-5">
-            <h3>Sign up</h3>
+          <div className="bg-[#00FFFF] text-black text-xl w-[150px] text-center cursor-pointer rounded-md py-2 footer-corner-style mt-8 mb-5">
+            <a href="https://www.linkedin.com/in/minhajmunna00" target="_blank">
+              Sign up
+            </a>
           </div>
         </div>
         <div className="w-[50%]">
@@ -52,9 +54,24 @@ const Footer = () => {
               <div>
                 <p className="text-xl mb-5 ">Follow Us</p>
                 <div>
-                  <i class="fa-brands fa-twitter icon-size"></i>
-                  <i class="fa-brands fa-linkedin icon-size ml-4"></i>
-                  <i class="fa-brands fa-square-facebook icon-size ml-4"></i>
+                  <a
+                    href="https://www.linkedin.com/in/minhajmunna00"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-twitter icon-size"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/minhajmunna00"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-linkedin icon-size ml-4"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/minhajmunna00"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-square-facebook icon-size ml-4"></i>
+                  </a>
                 </div>
               </div>
             </div>

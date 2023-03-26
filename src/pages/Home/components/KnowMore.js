@@ -9,12 +9,18 @@ const KnowMore = () => {
       </h3>
       <div className="w-[450px] mx-auto flex justify-around items-center  my-16">
         <div className="bg-[#00FFFF] text-xl w-[200px] text-center cursor-pointer  py-2 corner-style">
-          <h3>Our Services</h3>
+          <a href="https://www.linkedin.com/in/minhajmunna00" target="_blank">
+            Our Services
+          </a>
         </div>
-        <h3 className=" text-xl hover:text-[#FF0044] cursor-pointer">
+        <a
+          href="https://www.linkedin.com/in/minhajmunna00"
+          target="_blank"
+          className=" text-xl hover:text-[#FF0044] cursor-pointer"
+        >
           Let's Chat
           <span className="text-[#FF0044] font-bold"> ></span>
-        </h3>
+        </a>
       </div>
     </div>
   );

@@ -9,12 +9,18 @@ const About = () => {
       </h1>
       <div className="w-[450px] mx-auto flex justify-between items-center  my-16">
         <div className="bg-[#00FFFF] text-xl w-[200px] text-center cursor-pointer  py-2 corner-style">
-          <h3>Find out more</h3>
+          <a href="https://www.linkedin.com/in/minhajmunna00" target="_blank">
+            Find out more
+          </a>
         </div>
-        <h3 className=" text-xl hover:text-[#FF0044] cursor-pointer">
+        <a
+          href="https://www.linkedin.com/in/minhajmunna00"
+          target="_blank"
+          className=" text-xl hover:text-[#FF0044] cursor-pointer"
+        >
           Book a discovery call{" "}
           <span className="text-[#FF0044] font-bold">></span>
-        </h3>
+        </a>
       </div>
 
       {/* card */}

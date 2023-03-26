@@ -1,5 +1,8 @@
 import React from "react";
 import eventPhoto1 from "../../../assets/img/event-photo1.png";
+import eventPhoto2 from "../../../assets/img/card-2.png";
+import eventPhoto3 from "../../../assets/img/card3.png";
+import eventPhoto4 from "../../../assets/img/card4.png";
 
 const Events = () => {
   return (
@@ -8,7 +11,7 @@ const Events = () => {
       <h1 className="text-white text-7xl font-bold mb-14">& Events</h1>
       <div>
         <h3 className="text-white text-xl font-bold">RECENT POSTS</h3>
-        <div className="grid grid-cols-4 gap-4 my-8">
+        <div className=" grid grid-cols-4 gap-4 my-8">
           <div className="card w-90 h-[500px] bg-base-100 shadow-xl cursor-pointer">
             <figure>
               <img src={eventPhoto1} className="w-[100]" alt="Shoes" />
@@ -35,17 +38,17 @@ const Events = () => {
           </div>
           <div className="card w-90 h-[500px] bg-base-100 shadow-xl cursor-pointer">
             <figure>
-              <img src={eventPhoto1} className="w-[100]" alt="Shoes" />
+              <img src={eventPhoto2} className="w-[100]" alt="Shoes" />
             </figure>
             <div className="card-body">
               <div className="">
-                <div className="badge border-none  bg-[#00FFFF] text-lg px-4 py-4">
+                <div className="badge border-none  bg-[#00FFFF] text-lg px-2 py-4">
                   Opinion
                 </div>
-                <div className="badge border-none  bg-[#FF0044] text-lg px-4 py-4 ml-4">
+                <div className="badge border-none  bg-[#FF0044] text-lg px-2 py-4 ml-4">
                   People
                 </div>
-                <div className="badge border-none  bg-[#FF0044] text-lg px-4 py-4 ml-4">
+                <div className="badge border-none  bg-[#FF0044] text-lg px-2 py-4 ml-4">
                   News
                 </div>
               </div>
@@ -62,17 +65,17 @@ const Events = () => {
           </div>
           <div className="card w-90 h-[500px] bg-base-100 shadow-xl cursor-pointer">
             <figure>
-              <img src={eventPhoto1} className="w-[100]" alt="Shoes" />
+              <img src={eventPhoto3} className="w-[100]" alt="Shoes" />
             </figure>
             <div className="card-body">
               <div className="">
-                <div className="badge border-none  bg-[#00FFFF] text-lg px-4 py-4">
+                <div className="badge border-none  bg-[#00FFFF] text-lg px-2 py-4">
                   Know-How
                 </div>
-                <div className="badge border-none  bg-[#00FFFF] text-lg px-4 py-4 ml-2">
+                <div className="badge border-none  bg-[#00FFFF] text-lg px-2 py-4 ml-2">
                   Opinion
                 </div>
-                <div className="badge border-none  bg-[#FF0044] text-lg px-4 py-4 ml-2">
+                <div className="badge border-none  bg-[#FF0044] text-lg px-2 py-4 ml-2">
                   Tech
                 </div>
               </div>
@@ -89,14 +92,14 @@ const Events = () => {
           </div>
           <div className="card w-90 h-[500px] bg-base-100 shadow-xl cursor-pointer">
             <figure>
-              <img src={eventPhoto1} className="w-[100]" alt="Shoes" />
+              <img src={eventPhoto4} className="w-[100]" alt="Shoes" />
             </figure>
             <div className="card-body">
               <div className="">
-                <div className="badge border-none  bg-[#FF0044] text-lg px-8 py-4">
+                <div className="badge border-none  bg-[#FF0044] text-lg px-4 py-4">
                   Know-How
                 </div>
-                <div className="badge border-none  bg-[#FF0044] text-lg px-8 py-4 ml-4">
+                <div className="badge border-none  bg-[#FF0044] text-lg px-4 py-4 ml-4">
                   Business
                 </div>
               </div>
